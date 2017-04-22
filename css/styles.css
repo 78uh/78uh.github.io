@@ -1,0 +1,54 @@
+
+.row {
+	
+	text-align: center;
+	padding-top: 20%;
+	color: #EEEEEE;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.name, .title{
+	text-align: center;
+	color: #EEEEEE;
+	color: #EEEEEE;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+html::before {
+
+  background: url(../pictures/P1030924.jpg) no-repeat center center fixed;
+ font-family: 'Roboto', sans-serif;
+  content: '';
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position:absolute; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: blur(7px);
+  -moz-filter: blur(7px);
+  -o-filter: blur(7px);
+  -ms-filter: blur(7px);
+  filter: blur(7px);
+}
+
+/* Makes the links glow a light blue inside the text (Stolen from SU Wiki)*/
+a:hover {
+    text-shadow: 0 0 2.5px #3cd7fa,0 0 2.5px #3cd7fa;
+    color: #3cd7fa !important;
+    text-decoration: none;
+    -webkit-transition: all .4s linear 0s;
+    -moz-transition: all .4s linear 0s;
+    -ms-transition: all .4s linear 0s;
+    -o-transition: all .4s linear 0s;
+    transition: all .4s linear 0s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
