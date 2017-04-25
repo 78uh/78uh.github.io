@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>This is a test page</title>
+
+<link href="default.css" rel="stylesheet">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<!-- VT323 Font Family -->
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+<!-- Typed CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js"></script>
+
+
+<!-- Jquery Library -->
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+
+
+<!-- Typeit Library -->
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  var d = new Date();
+  var n = d.getHours();
+  if (n > 19 || n < 6)
+    // If time is after 7PM or before 6AM, apply night theme to ‘body’
+    document.body.className = "night";
+  else if (n > 16 && n < 19)
+    // If time is between 4PM – 7PM sunset theme to ‘body’
+    document.body.className = "sunset";
+  else
+    // Else use ‘day’ theme
+    document.body.className = "day";
+});
+
+
+/*
+document.addEventListener('DOMContentLoaded', function() {
+    var currentTime = new Date().getHours();
+    console.log(currentTime);
+    if (0 <= currentTime&&currentTime < 5) {
+     document.write("<link rel='stylesheet' href='css/night.css'>");
+     document.write("<audio src='music/Chaseinit.mp3' autoplay></audio>"); 
+    }
+    if (5 <= currentTime&&currentTime < 11) {
+        document.write("<link rel='stylesheet' href='css/morning.css'>");
+        document.write("<audio src='music/Chaseinit.mp3' autoplay></audio>"); 
+    }
+    if (11 <= currentTime&&currentTime < 16) {
+    
+      document.write("<link rel='stylesheet' href='css/morning.css'>"); 
+      document.write("<audio src='music/Chaseinit.mp3' autoplay></audio>");
+    }
+    if (16 <= currentTime&&currentTime < 22) {
+      document.write("<link rel='stylesheet' href='css/afternoon.css'>");
+      document.write("<audio src='music/Chaseinit.mp3' autoplay></audio>"); 
+    }
+    if (22 <= currentTime&&currentTime <= 24) {
+       document.write("<link rel='stylesheet' href='css/night.css'>");
+       document.write("<audio src='music/Chaseinit.mp3' autoplay></audio>"); 
+    }
+    
+}, false);
+*/
+
+</script>
+<style>
+    html{
+        font-family: 'VT323';
+    }
+
+</style>
+
+
+</head>
+<body>
+
+<div class="container">
+
+<script type="text/javascript">
+
+document.addEventListener('DOMContentLoaded', function() {
+
+ $('#example1').typeIt({
+     strings: 'How are you doing today?',
+     speed: 50,
+     autoStart: false})
+    
+}, false);</script>
+</div>
+</body>
+
+<p id="example1"></p> 
+</html>

@@ -1,0 +1,13 @@
+
+
+div {
+
+
+  color: red;
+}
+
+
+/* backgrounds */
+.day { background: url('Pictures/Morning.gif')  no-repeat center center fixed; }
+.sunset { background: url('Pictures/Morning.gif')  no-repeat center center fixed; }
+.night { background: url('Pictures/Morning.gif')  no-repeat center center fixed; }
