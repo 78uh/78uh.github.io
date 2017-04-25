@@ -29,15 +29,23 @@
 $(document).ready(function(){
   var d = new Date();
   var n = d.getHours();
-  if (n > 19 || n < 6)
+  if (n > 19 || n < 6){
     // If time is after 7PM or before 6AM, apply night theme to ‘body’
     document.body.className = "night";
-  else if (n > 16 && n < 19)
+    $(".night").append("<audio src='music/Chaseinit.mp3' autoplay></audio>");
+
+}
+  else if (n > 16 && n < 19){
     // If time is between 4PM – 7PM sunset theme to ‘body’
     document.body.className = "sunset";
-  else
+$(".sunset").append("<audio src='music/Chaseinit.mp3' autoplay></audio>");
+  }
+
+  else{
     // Else use ‘day’ theme
     document.body.className = "day";
+    $(".day").append("<audio src='music/Reformat.mp3' autoplay></audio>");
+  }
 });
 
 
@@ -80,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 </head>
-<body>
+<body id="body">
 
 <div class="container">
 
@@ -89,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
 
  $('#example1').typeIt({
-     strings: 'How are you doing today?',
+     strings: ['How are you doing today?','I am doing fine.'],
      speed: 50,
      autoStart: false})
     
