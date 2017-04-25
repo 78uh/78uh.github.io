@@ -1,16 +1,19 @@
 
-a.School, a.PersonalProjects, a.OtherStuff {
+.School, .PersonalProjects, .OtherStuff {
 
-	font-size: 20px;
-
+	font-size: 30px;
 }
+
+
+
 
 .row {
 	
 	text-align: center;
-	padding-top: 20%;
+	padding-top: 25%;
 	color: #EEEEEE;
 	font-family: 'Roboto', sans-serif;
+
 
 }
 
@@ -20,9 +23,20 @@ a.School, a.PersonalProjects, a.OtherStuff {
 	color: #EEEEEE;
 	color: #EEEEEE;
 	font-family: 'Roboto', sans-serif;
+	margin-top: 2%;
+
 }
 
-
+.Box {
+	background-color: black;
+	position: absolute;
+	left: 50%;
+	margin-left: -8%;
+	top: 5%;
+	border-radius: 25px;
+	background: rgba(3,3,3,1);
+	padding: 1%;
+	}
 
 
 
@@ -48,8 +62,8 @@ html::before {
 
 /* Makes the links glow a light blue inside the text (Stolen from SU Wiki)*/
 a:hover {
-    text-shadow: 0 0 2.5px #3cd7fa,0 0 2.5px #3cd7fa;
-    color: #3cd7fa !important;
+    text-shadow: 0 0 2.5px #FA3C3C,0 0 2.5px #FA3C3C;
+    color: #FA3C3C !important;
     text-decoration: none !important;
     -webkit-transition: all .4s linear 0s;
     -moz-transition: all .4s linear 0s;
@@ -60,4 +74,11 @@ a:hover {
     transition-duration: 0.4s;
     transition-timing-function: linear;
     transition-delay: 0s;
+}
+
+/* The Text shadow does a cool animation when hovered over */
+a {
+    color: #EE0000;
+    text-shadow: 0px -15px 2.5px transparent,0px 15px 2.5px transparent;
+    text-decoration: none;
 }

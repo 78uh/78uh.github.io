@@ -1,0 +1,11 @@
+.Box{
+
+background: rgba(3,3,3,1);
+background: -moz-linear-gradient(left, rgba(3,3,3,1) 0%, rgba(18,18,18,1) 0%, rgba(3,3,3,1) 0%, rgba(20,20,20,1) 0%, rgba(0,0,0,1) 0%, rgba(8,8,8,1) 0%, rgba(5,5,5,1) 0%, rgba(8,8,8,1) 0%, rgba(13,13,13,0.75) 61%, rgba(15,15,15,0.59) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(3,3,3,1)), color-stop(0%, rgba(18,18,18,1)), color-stop(0%, rgba(3,3,3,1)), color-stop(0%, rgba(20,20,20,1)), color-stop(0%, rgba(0,0,0,1)), color-stop(0%, rgba(8,8,8,1)), color-stop(0%, rgba(5,5,5,1)), color-stop(0%, rgba(8,8,8,1)), color-stop(61%, rgba(13,13,13,0.75)), color-stop(100%, rgba(15,15,15,0.59)));
+background: -webkit-linear-gradient(left, rgba(3,3,3,1) 0%, rgba(18,18,18,1) 0%, rgba(3,3,3,1) 0%, rgba(20,20,20,1) 0%, rgba(0,0,0,1) 0%, rgba(8,8,8,1) 0%, rgba(5,5,5,1) 0%, rgba(8,8,8,1) 0%, rgba(13,13,13,0.75) 61%, rgba(15,15,15,0.59) 100%);
+background: -o-linear-gradient(left, rgba(3,3,3,1) 0%, rgba(18,18,18,1) 0%, rgba(3,3,3,1) 0%, rgba(20,20,20,1) 0%, rgba(0,0,0,1) 0%, rgba(8,8,8,1) 0%, rgba(5,5,5,1) 0%, rgba(8,8,8,1) 0%, rgba(13,13,13,0.75) 61%, rgba(15,15,15,0.59) 100%);
+background: -ms-linear-gradient(left, rgba(3,3,3,1) 0%, rgba(18,18,18,1) 0%, rgba(3,3,3,1) 0%, rgba(20,20,20,1) 0%, rgba(0,0,0,1) 0%, rgba(8,8,8,1) 0%, rgba(5,5,5,1) 0%, rgba(8,8,8,1) 0%, rgba(13,13,13,0.75) 61%, rgba(15,15,15,0.59) 100%);
+background: linear-gradient(to right, rgba(3,3,3,1) 0%, rgba(18,18,18,1) 0%, rgba(3,3,3,1) 0%, rgba(20,20,20,1) 0%, rgba(0,0,0,1) 0%, rgba(8,8,8,1) 0%, rgba(5,5,5,1) 0%, rgba(8,8,8,1) 0%, rgba(13,13,13,0.75) 61%, rgba(15,15,15,0.59) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#030303', endColorstr='#0f0f0f', GradientType=1 );
+}
