@@ -1,4 +1,10 @@
 
+a.School, a.PersonalProjects, a.OtherStuff {
+
+	font-size: 20px;
+
+}
+
 .row {
 	
 	text-align: center;
@@ -8,12 +14,15 @@
 
 }
 
-.name, .title{
+.name, .title, .fluid{
+	padding-top: 2%;
 	text-align: center;
 	color: #EEEEEE;
 	color: #EEEEEE;
 	font-family: 'Roboto', sans-serif;
 }
+
+
 
 
 
@@ -41,7 +50,7 @@ html::before {
 a:hover {
     text-shadow: 0 0 2.5px #3cd7fa,0 0 2.5px #3cd7fa;
     color: #3cd7fa !important;
-    text-decoration: none;
+    text-decoration: none !important;
     -webkit-transition: all .4s linear 0s;
     -moz-transition: all .4s linear 0s;
     -ms-transition: all .4s linear 0s;
