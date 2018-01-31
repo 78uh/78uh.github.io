@@ -10,10 +10,7 @@ html::before {
   z-index: -1;
   width: 100%;
   height: 100%;
-  position:absolute; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  position:absolute;
   background-size: cover;
   -webkit-filter: blur(7px);
   -moz-filter: blur(7px);
@@ -45,17 +42,46 @@ a {
     text-decoration: none;
 }
 
-#list > li {
-
-
+.list {
+    text-align: center;
+    list-style: none;
+    z-index: 1;
     display: inline-block;
     font-size:250%;
-    padding-left: 10%;
+    margin-left: 10%;
     color: beige;
+    transition: all 0.5s;
+}
+
+.first {
+
+
+
+}
+
+.list:hover{
+
+    -webkit-transform:translate(0,-74%);
+
+}
+
+#hider{
+position:fixed;
+    display: block;
+    background: url(../pictures/P1030924.jpg) no-repeat center center fixed;
+    float: inherit;
+    background-size: cover;
+    color: #f1f1f1;
+
+    z-index: 0;
+    width: 100%;
+    padding: 10%;
+    bottom: 4%;
+    filter: blur(7px);
 }
 
 #nav {
-    margin-top: 35%;
+    margin-top: 25%;
 
     margin-left: 5%;
 
