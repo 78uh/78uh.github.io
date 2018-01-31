@@ -36,15 +36,12 @@
 <body>
 
 <script>
+$(document).ready(function() {
 
-    $("#move").click(function() {
-        $("#move").animate({
-            up: '200px'
-
-
-        });
+    $("li").click(function () {
+        $("li").slideDown()   ;
     })
-
+});
 </script>
 
 <nav id="nav" ><ul id="list" style="display: block; text-align: center; list-style: none">
@@ -53,7 +50,7 @@
     </li>
 
     <li id="move">
-        Form 2
+       <p> Form 2</p>
     </li>
     <li>
         Form 3
