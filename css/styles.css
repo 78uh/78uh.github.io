@@ -65,7 +65,7 @@ a {
 
 }
 
-#hider{
+.hider{
 position:fixed;
     display: block;
     background: url(../pictures/P1030924.jpg) no-repeat center center fixed;
