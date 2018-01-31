@@ -22,7 +22,7 @@ html::before {
   filter: blur(7px);
 }
 
-/* Makes the links glow a light blue inside the text (Stolen from SU Wiki)*/
+/* Makes the links glow a light blue inside the text ( from SU Wiki)*/
 a:hover {
     text-shadow: 0 0 2.5px #FA3C3C,0 0 2.5px #FA3C3C;
     color: #FA3C3C !important;
@@ -43,4 +43,21 @@ a {
     color: #EE0000;
     text-shadow: 0px -15px 2.5px transparent,0px 15px 2.5px transparent;
     text-decoration: none;
+}
+
+#list > li {
+
+
+    display: inline-block;
+    font-size:250%;
+    padding-left: 10%;
+    color: beige;
+}
+
+#nav {
+    margin-top: 35%;
+
+    margin-left: 5%;
+
+
 }
