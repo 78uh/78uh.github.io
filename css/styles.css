@@ -76,7 +76,7 @@ position:fixed;
     z-index: 0;
     width: 100%;
     padding: 10%;
-    bottom: 37%;
+    bottom: 12em;
     filter: blur(7px);
 }
 
